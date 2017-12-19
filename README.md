@@ -1,5 +1,7 @@
 ### deep learning 中情感分析 (sentiment analysis) 論文分析、心得
 
+*whole papers: [[google docs](https://docs.google.com/spreadsheets/d/1O2e5eTqGwxsmVscdXWQnMGN3ueCR12DQMJdK8XlboH4/edit#gid=855721684)]*
+
 
 2017
 
