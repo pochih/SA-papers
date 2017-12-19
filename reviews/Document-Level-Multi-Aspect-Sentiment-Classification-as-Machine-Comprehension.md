@@ -18,7 +18,7 @@ Yichun Yin, Yangqiu Song, Ming Zhang, EMNLP, 2017
   - sent-level interactive attention
     - 跟 word-level 用同樣的方式，select vector P 會分別去看 Mds 以及 Mqs，並 update P
 
-### Strengths
+### Strengths/novelties
 - 把 sentiment analysis 當成 reading comprehension 問題來解，可以套用 reading comprehension 的架構
 
 ### Weaknesses
