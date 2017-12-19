@@ -1,3 +1,8 @@
+## Document-Level Multi-Aspect Sentiment Classification as Machine Comprehension
+
+Yichun Yin, Yangqiu Song, Ming Zhang, EMNLP, 2017
+
+### Summary
 - 把 sentiment analysis 當做 reading comprehension 問題來解。會先手工選擇跟 aspect 有關的 keyword，接著把每個 keyword 都當成一個 question，去算 document 跟 keyword 的關係
 - 會把 document 跟 keyword 一起丟進 model，model 中包含 word-level & sentence-level，兩個 level 都有 encode 以及 interactive attention 兩階段
   - word-level encode
@@ -12,5 +17,8 @@
     - question 每個字的 word embedding stack 起來丟進 dense 得到 question representation for sent (Mqs)，這裡的 dense 跟 word-level 是不同個
   - sent-level interactive attention
     - 跟 word-level 用同樣的方式，select vector P 會分別去看 Mds 以及 Mqs，並 update
-  - 實驗沒做在常見的 Twitter dataset 上，有點可惜。
-  - 文中沒特別說 select vector P 怎麼 initial，attention 機制的好壞很大程度取決於一開始 P 的值。如果是 random initial，感覺不會比用 target word 去 weight sentence 的方法好 (ex: 用 target 來對 sentence attention 或 memory network)。
+
+
+### Weaknesses
+- 實驗沒做在常見的 Twitter dataset 上，有點可惜。
+- 文中沒特別說 select vector P 怎麼 initial，attention 機制的好壞很大程度取決於一開始 P 的值。如果是 random initial，感覺不會比用 target word 去 weight sentence 的方法好 (ex: 用 target 來對 sentence attention 或 memory network)。
