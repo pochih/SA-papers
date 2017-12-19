@@ -10,3 +10,8 @@
 
 - Interactive Attention Networks for Aspect-Level Sentiment Classification [[Paper](https://arxiv.org/abs/1709.00893)] [[Review](reviews/Interactive-Attention-Networks-for-Aspect-Level-Sentiment-Classification.md)]
 	- Dehong Ma, Sujian Li, Xiaodong Zhang, Houfeng Wang, IJCAI, 2017
+
+2016
+
+- Gated Neural Networks for Targeted Sentiment Analysis [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12074/12065)] [[Review](reviews/Gated-Neural-Networks-for-Targeted-Sentiment-Analysis.md)]
+	- Meishan Zhang and Yue Zhang and Duy-Tin Vo, AAAI, 2016
