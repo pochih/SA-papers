@@ -4,7 +4,7 @@ Yichun Yin, Yangqiu Song, Ming Zhang, EMNLP, 2017
 
 ### Summary
 - 把 sentiment analysis 當做 reading comprehension 問題來解。會先手工選擇跟 aspect 有關的 keyword，接著把每個 keyword 都當成一個 question，去算 document 跟 keyword 的關係
-- 會把 document 跟 keyword 一起丟進 model，model 中包含 word-level & sentence-level，兩個 level 都有 encode 以及 interactive attention 兩階段
+- 會把 document 跟 keyword (question) 一起丟進 model，model 中包含 word-level & sentence-level，兩個 level 都有 encode 以及 interactive attention 兩階段
   - word-level encode
     - sentence 每個字的 word embedding 丟進 bi-LSTM，把 hidden state stack 起來得到 doc representation for word (Mdw)
     - question 每個字的 word embedding stack 起來丟進 dense 得到 question representation for word (Mqw)
