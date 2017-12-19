@@ -16,9 +16,12 @@ Yichun Yin, Yangqiu Song, Ming Zhang, EMNLP, 2017
     - 把剛才得到的 sentence representation 丟進 bi-LSTM，把 hidden state stack 起來得到 doc representation for sent (Mds)
     - question 每個字的 word embedding stack 起來丟進 dense 得到 question representation for sent (Mqs)，這裡的 dense 跟 word-level 是不同個
   - sent-level interactive attention
-    - 跟 word-level 用同樣的方式，select vector P 會分別去看 Mds 以及 Mqs，並 update
+    - 跟 word-level 用同樣的方式，select vector P 會分別去看 Mds 以及 Mqs，並 update P
 
+### Strengths
+- 把 sentiment analysis 當成 reading comprehension 問題來解，可以套用 reading comprehension 的架構
 
 ### Weaknesses
+- 需要手工去選每個 aspect 對應的 keyword，如果 aspect 很多，就沒辦法用本篇的方法。況且 keyword 的挑選沒有一定標準
 - 實驗沒做在常見的 Twitter dataset 上，有點可惜。
 - 文中沒特別說 select vector P 怎麼 initial，attention 機制的好壞很大程度取決於一開始 P 的值。如果是 random initial，感覺不會比用 target word 去 weight sentence 的方法好 (ex: 用 target 來對 sentence attention 或 memory network)。
