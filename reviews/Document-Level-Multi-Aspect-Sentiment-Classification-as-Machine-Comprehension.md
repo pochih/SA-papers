@@ -23,5 +23,5 @@ Yichun Yin, Yangqiu Song, Ming Zhang, EMNLP, 2017
 
 ### Weaknesses
 - 需要手工去選每個 aspect 對應的 keyword，如果 aspect 很多，就沒辦法用本篇的方法。況且 keyword 的挑選沒有一定標準
-- 實驗沒做在常見的 Twitter dataset 上，有點可惜。
+- 實驗沒做在常見的 Twitter dataset & SemEval 上，有點可惜。
 - 文中沒特別說 select vector P 怎麼 initial，attention 機制的好壞很大程度取決於一開始 P 的值。如果是 random initial，感覺不會比用 target word 去 weight sentence 的方法好 (ex: 用 target 來對 sentence attention 或 memory network)。
