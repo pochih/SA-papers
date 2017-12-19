@@ -9,7 +9,7 @@ Dehong Ma, Sujian Li, Xiaodong Zhang, Houfeng Wang, IJCAI, 2017
 - attend 過後的 context representation 跟 target representation 會 concat 在一起，經過一層 dense 再做 softmax
 - 實驗中提起了之前的一些方法，作者說對 target 付出越多努力的方法，表現也越好
 - 做了 ablation study，證明不要用 target 平均而是要用 attention 比較好，以及在 attention 時同時考慮 context/target 都是必要的
-- SemEval2014 中，用本篇的概念，laptop 這類會提升得比 restaurant 多，因為 restaurant 中 target 長度比較短，target attention 效果提升較少
+- SemEval2014 dataset 包含兩個類別，用本篇的概念，laptop 這類會提升得比 restaurant 這類多，因為 restaurant 中 target 長度比較短，target attention 效果提升較少
 
 ### Strengths/novelties
 - 算 context attention 跟算 target attention 時都會考慮彼此，跟之前 attention 的方法略有不同
