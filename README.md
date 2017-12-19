@@ -15,3 +15,8 @@
 
 - Gated Neural Networks for Targeted Sentiment Analysis [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12074/12065)] [[Review](reviews/Gated-Neural-Networks-for-Targeted-Sentiment-Analysis.md)]
 	- Meishan Zhang and Yue Zhang and Duy-Tin Vo, AAAI, 2016
+
+2015
+
+- Target-Dependent Twitter Sentiment Classification with Rich Automatic Features [[Paper](https://www.ijcai.org/Proceedings/15/Papers/194.pdf)] [[Review](reviews/Target-Dependent-Twitter-Sentiment-Classification-with-Rich-Automatic-Features.md)]
+	- Duy-Tin Vo and Yue Zhang, IJCAI, 2015
