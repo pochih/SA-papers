@@ -1,7 +1,6 @@
-#### deep learning 情感分析論文統整、分析
-#### 作為論文寫作參考資料
+#### Deep Learning 情感分析論文統整、分析，作為論文寫作參考資料
 
-*whole papers I read: [[google docs](https://docs.google.com/spreadsheets/d/1O2e5eTqGwxsmVscdXWQnMGN3ueCR12DQMJdK8XlboH4/edit#gid=855721684)]*
+*全部看過的 papers: [[google docs](https://docs.google.com/spreadsheets/d/1O2e5eTqGwxsmVscdXWQnMGN3ueCR12DQMJdK8XlboH4/edit#gid=855721684)]*
 
 
 2017
