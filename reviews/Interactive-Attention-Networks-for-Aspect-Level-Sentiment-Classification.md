@@ -12,6 +12,7 @@ Dehong Ma, Sujian Li, Xiaodong Zhang, Houfeng Wang, IJCAI, 2017
 - SemEval2014 dataset 包含兩個類別，用本篇的概念，laptop 這類會提升得比 restaurant 這類多，因為 restaurant 中 target 長度比較短，target attention 效果提升較少
 
 ### Strengths/novelties
+- 對 target 做 attention，可以更好地表示 target
 - 算 context attention 跟算 target attention 時都會考慮彼此，跟之前 attention 的方法略有不同
 
 ### Weaknesses
