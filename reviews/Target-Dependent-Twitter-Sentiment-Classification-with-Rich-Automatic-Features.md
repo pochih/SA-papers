@@ -13,8 +13,8 @@ Duy-Tin Vo and Yue Zhang, IJCAI, 2015
     - lexicon 辭典只用 MPQA + HL 效果最好
     - SSWE+word2vec > SSWE > word2vec
 
-### Strengths/novelties
+### Strengths / Novelties
 - 在大 deep learning 時代，用手工提取特徵的 paper 越來越少。本篇結合新舊方法，得到不錯的 performance
 
-### Weaknesses
+### Weaknesses / Notes
 - 沒有很好利用 context 與 target 之間的關係，pooling 過後的東西也不太有 syntatic 的關聯。用 LSTM 來 model 句子應該會是更好的做法，然後用 target 來對 context 做 attention
