@@ -3,7 +3,7 @@
 Duyu Tang, Bing Qin, Ting Liu, EMNLP, 2016
 
 ### Summary
-- '[End-To-End Memory Networks](https://arxiv.org/abs/1503.08895)' 這篇 paper 正式的把 memory network 的架構完善，memory network 影起的浪潮，也導致 NIPS 2015 專門為其建立了 RAM workshop (reasoning, attention, memory network)
+- '[End-To-End Memory Networks](https://arxiv.org/abs/1503.08895)' 這篇 paper 正式的把 memory network 的架構完善，memory network 引起的浪潮，也導致 NIPS 2015 專門為其建立了 RAM workshop (reasoning, attention, memory network)
 - memory network vs attention
 	- memory net 跟 attention 其實就是同一個概念，都是為了求出 input sequence 的 weighted sum。
 	- 根據個人的理解，其中一個差別是兩者的 input。attention 通常是對 RNN 的 hidden state 做 weighted sum。而多數 memory network 的 paper 都是直接對 word embedding 做 weighted sum，而不會先丟進 LSTM。
