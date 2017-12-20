@@ -17,3 +17,4 @@ Jiangming Liu, Yue Zhang, EACL, 2017
 
 ### Weaknesses
 - 作者在實驗中，為了驗證 BILSTM-ATT-G 對 [OOV (out of vocabulary)](http://www.festvox.org/bsv/x1407.html) 的效果很好，額外切了一組不包含 OOV 的 test data，並另外切了一組包含很多 OOV 的 test dta。對這兩個 test data 做實驗，得出 OOV 很多的時候，對 BILSTM-ATT-G 影響較小。但論文中的圖表不知道是不是畫反了，圖表中的結果，跟作者的論點唱反調 XD
+- 這篇的中 target representation 是直接用 target hidden state 的平均，但平均這種東西，怕的就是遇到太長的 target。感覺可以對 target hidden state 也做 attention，再用 attend 過後的東西加到本篇中的三個 model 中
