@@ -11,6 +11,7 @@ Classification with Rich Automatic Features](https://www.ijcai.org/Proceedings/1
 
 ### Strengths/novelties
 - 比前作更好地利用 target 的訊息
+- 要把多個量級不同的東西一起考慮，用 gate 來控制 input 的比重，會比直接 concat 起來更好
 
 ### Weaknesses
 - 感覺用 gate 來控制 input 的部分做得有些複雜了，用 LSTM 加 attention 的架構能更容易的選擇每個 input 的權重，也不用像 paper 一樣每個 connection 都加一個 gate
