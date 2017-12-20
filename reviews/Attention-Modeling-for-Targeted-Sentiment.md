@@ -12,9 +12,9 @@ Jiangming Liu, Yue Zhang, EACL, 2017
     - 對 BILSTM-ATT-G 而言，如果沒做 attention，不加 gate 比較好。有做 attention，配上 gate 更好 (因為能更好的把兩個量級不同的東西 concat 起來)
     - 作者分析在 positive, neutral, negative 三個類別上的準確率。對 positive 以及 negative 而言，BILSTM-ATT-G 表現最好。對 neutral 而言，BILSTM-ATT-C 表現最好。
 
-### Strengths/novelties
+### Strengths / Novelties
 - 要把多個量級不同的東西一起考慮，例如文中把多個 LSTM 的產物一起考慮，用 gate 來控制每個 input 的比重，會比直接 concat 起來更好。二作 Yue Zhang 已經在兩篇論文中用了這個技巧
 
-### Weaknesses
+### Weaknesses / Notes
 - 這篇的中 target representation 是直接用 target hidden state 的平均，但平均這種東西，怕的就是遇到太長的 target。感覺可以對 target hidden state 也做 attention，再用 attend 過後的東西加到本篇中的三個 model 中
 - 作者在 OOV 實驗中的圖表畫反了，圖表中的結果，跟作者的論點唱反調 XD。為了驗證 BILSTM-ATT-G 對 [OOV (out of vocabulary)](http://www.festvox.org/bsv/x1407.html) 的效果很好，作者額外切了一組不包含 OOV 的 test data，並切了一組包含很多 OOV 的 test data。對這兩個 test data 做實驗，得出 OOV 很多的時候，對 BILSTM-ATT-G 影響較小。
