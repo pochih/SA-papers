@@ -11,10 +11,10 @@ Dehong Ma, Sujian Li, Xiaodong Zhang, Houfeng Wang, IJCAI, 2017
 - 做了 ablation study，證明不要用 target 平均而是要用 attention 比較好，以及在 attention 時同時考慮 context/target 都是必要的
 - SemEval2014 dataset 包含兩個類別，用本篇的概念，laptop 這類會提升得比 restaurant 這類多，因為 restaurant 中 target 長度比較短，target attention 效果提升較少
 
-### Strengths/novelties
+### Strengths / Novelties
 - 對 target 做 attention，可以更好地表示 target
 - 算 context attention 跟算 target attention 時都會考慮彼此，跟之前 attention 的方法略有不同
 
-### Weaknesses
+### Weaknesses / Notes
 - 這篇的結果輸 "[Aspect Level Sentiment Classification with Deep Memory Network](https://arxiv.org/abs/1605.08900)"，而且還引用他 XD
 - 原因可能是 "[Aspect Level Sentiment Classification with Deep Memory Network](https://arxiv.org/abs/1605.08900)" 用了很多次 hop，學到更抽象的語意。本篇只做一次 attention，學到的東西較低階
