@@ -17,6 +17,9 @@
 
 2016
 
+- Aspect Level Sentiment Classification with Deep Memory Network [[Paper](https://arxiv.org/abs/1605.08900)] [[Review](reviews/Aspect-Level-Sentiment-Classification-with-Deep-Memory-Network.md)]
+	- Duyu Tang, Bing Qin, Ting Liu, EMNLP, 2016
+
 - Gated Neural Networks for Targeted Sentiment Analysis [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12074/12065)] [[Review](reviews/Gated-Neural-Networks-for-Targeted-Sentiment-Analysis.md)]
 	- Meishan Zhang and Yue Zhang and Duy-Tin Vo, AAAI, 2016
 
