@@ -5,11 +5,15 @@
 
 2017
 
+- Attention Modeling for Targeted Sentiment [[Paper](http://leoncrashcode.github.io/Documents/EACL2017.pdf)] [[Review](reviews/Attention-Modeling-for-Targeted-Sentiment.md)]
+	- Jiangming Liu, Yue Zhang, EACL, 2017
+
 - Document-Level Multi-Aspect Sentiment Classification as Machine Comprehension [[Paper](http://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-AspectClassification.pdf)] [[Review](reviews/Document-Level-Multi-Aspect-Sentiment-Classification-as-Machine-Comprehension.md)]
     - Yichun Yin, Yangqiu Song, Ming Zhang, EMNLP, 2017
 
 - Interactive Attention Networks for Aspect-Level Sentiment Classification [[Paper](https://arxiv.org/abs/1709.00893)] [[Review](reviews/Interactive-Attention-Networks-for-Aspect-Level-Sentiment-Classification.md)]
 	- Dehong Ma, Sujian Li, Xiaodong Zhang, Houfeng Wang, IJCAI, 2017
+
 
 2016
 
