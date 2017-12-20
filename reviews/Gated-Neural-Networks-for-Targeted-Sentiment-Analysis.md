@@ -9,14 +9,10 @@ Classification with Rich Automatic Features](https://www.ijcai.org/Proceedings/1
 - gate 是利用 context 自身的 hidden 跟 target hidden 綜合算出的
 - context hidden 跟 target hidden 是對 context / target 做 pooling 得到，paper 並沒有寫很清楚怎麼做 pooling
 
-### Strengths/novelties
+### Strengths / Novelties
 - 比前作更好地利用 target 的訊息
 - 要把多個量級不同的東西一起考慮，用 gate 來控制 input 的比重，會比直接 concat 起來更好
 
-### Weaknesses
+### Weaknesses / Notes
 - 感覺用 gate 來控制 input 的部分做得有些複雜了，用 LSTM 加 attention 的架構能更容易的選擇每個 input 的權重，也不用像 paper 一樣每個 connection 都加一個 gate
 - 沒寫如何對 hidden state 做 pooling (如果跟前作用一樣的 pooling 方式，那就是對 hidden state 做 max, min, avg, std, product 五種 pooling)
-
-
-
-
