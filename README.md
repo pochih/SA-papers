@@ -20,10 +20,13 @@
 - Aspect Level Sentiment Classification with Deep Memory Network [[Paper](https://arxiv.org/abs/1605.08900)] [[Review](reviews/Aspect-Level-Sentiment-Classification-with-Deep-Memory-Network.md)]
 	- Duyu Tang, Bing Qin, Ting Liu, EMNLP, 2016
 
+- Attention-based LSTM for Aspect-level Sentiment Classification [[Paper](https://aclweb.org/anthology/D16-1058)] [[Review](reviews/Attention-based-LSTM-for-Aspect-level-Sentiment-Classification.md)]
+	- Yequan Wang, Minlie Huang, Li Zhao, Xiaoyan Zhu, EMNLP, 2016
+
 - Gated Neural Networks for Targeted Sentiment Analysis [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12074/12065)] [[Review](reviews/Gated-Neural-Networks-for-Targeted-Sentiment-Analysis.md)]
-	- Meishan Zhang and Yue Zhang and Duy-Tin Vo, AAAI, 2016
+	- Meishan Zhang, Yue Zhang, Duy-Tin Vo, AAAI, 2016
 
 2015
 
 - Target-Dependent Twitter Sentiment Classification with Rich Automatic Features [[Paper](https://www.ijcai.org/Proceedings/15/Papers/194.pdf)] [[Review](reviews/Target-Dependent-Twitter-Sentiment-Classification-with-Rich-Automatic-Features.md)]
-	- Duy-Tin Vo and Yue Zhang, IJCAI, 2015
+	- Duy-Tin Vo, Yue Zhang, IJCAI, 2015
