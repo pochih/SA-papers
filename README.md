@@ -1,4 +1,4 @@
-## Deep Learning 情感分析論文統整、分析，作為論文寫作參考資料
+## Deep Learning 情感分析論文統整、分析
 
 *全部看過的 papers: [[google docs](https://docs.google.com/spreadsheets/d/1O2e5eTqGwxsmVscdXWQnMGN3ueCR12DQMJdK8XlboH4/edit#gid=855721684)]*
 
@@ -13,6 +13,9 @@
 
 - Interactive Attention Networks for Aspect-Level Sentiment Classification [[Paper](https://arxiv.org/abs/1709.00893)] [[Review](reviews/Interactive-Attention-Networks-for-Aspect-Level-Sentiment-Classification.md)]
 	- Dehong Ma, Sujian Li, Xiaodong Zhang, Houfeng Wang, IJCAI, 2017
+
+- Linguistically Regularized LSTM for Sentiment Classification [[Paper](https://arxiv.org/abs/1611.03949)] [[Review](reviews/Linguistically-Regularized-LSTM-for-Sentiment-Classification.md)]
+	- Qiao Qian, Minlie Huang, Jinhao Lei, Xiaoyan Zhu, arXiv, 2017
 
 
 2016
