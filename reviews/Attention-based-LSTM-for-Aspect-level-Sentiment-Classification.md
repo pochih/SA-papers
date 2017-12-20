@@ -19,4 +19,4 @@ Yequan Wang, Minlie Huang, Li Zhao, Xiaoyan Zhu, EMNLP, 2016
 - 本篇給 aspect 建了專屬的 aspect embedding matrix，是第一篇提出這個想法的。有另一篇論文是額外建一個 word embedding，aspect embedding 是從這個 word embedding 得到的。這個 word embedding 跟原本的 word embedding 初始值一樣，但分開更新。
 
 ### Weaknesses
-- 因為在本篇用的 SemEval2014 中，aspect 很少，在 test case 中不會出現沒看過的 aspect。但如果想把本篇的方法擴展到別的 dataset，這會是個無法解決的問題。
+- 因為在本篇用的 SemEval2014 dataset 中，aspect 很少，在 test case 中不會出現沒看過的 aspect。但如果想把本篇的方法擴展到別的 dataset，這會是個無法解決的問題。
