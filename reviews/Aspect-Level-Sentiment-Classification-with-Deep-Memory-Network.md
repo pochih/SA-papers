@@ -6,9 +6,9 @@ Duyu Tang, Bing Qin, Ting Liu, EMNLP, 2016
 - '[End-To-End Memory Networks](https://arxiv.org/abs/1503.08895)' 這篇 paper 正式的把 memory network 的架構完善，memory network 引起的浪潮，也導致 NIPS 2015 專門為其建立了 RAM workshop (reasoning, attention, memory network)
 - memory network vs attention
 	- memory net 跟 attention 其實就是同一個概念，都是為了求出 input sequence 的 weighted sum。
-	- 根據個人的理解，其中一個差別是兩者的 input。attention 通常是對 RNN 的 hidden state 做 weighted sum。而多數 memory network 的 paper 都是直接對 word embedding 做 weighted sum，而不會先丟進 LSTM。
-	- 另一個差異是 memory network 必然會有個 query，會用 query 給 input 分數。而 attention 則不一定會有 query。
-	- 在 attention 中，因為是對 RNN hidden state 做 weighted sum，而 RNN 是包含著位置的資訊的。但 memory network 的 input 卻不會有位置信息，因此 memory network 在算每個 input 的權重時，加上位置資訊後的表現幾乎都會提升
+	- 根據個人的理解，其中一個差異是 memory network 必然會有個 query，也就是 memory 的讀寫頭，會用 query 給 memory 中的每一個 element 打分數。而 attention 則不一定會有 query。
+	- 另一個差別是兩者的 input。attention 通常是對 RNN 的 hidden state 做 weighted sum。而多數 memory network 的 paper 都是直接把 word embedding 複製進 memory，然後對 memory 做 weighted sum，而不會先丟進 RNN。
+	- 在 attention 中，因為是對 RNN hidden state 做 weighted sum，而 RNN 是包含著位置的資訊的。但 memory network 的 input 卻不會有位置信息，因此 memory network 在算每個 element 的權重時，加上位置資訊後的表現幾乎都會提升
 - 本文中用了兩種方式去算 input 的 weighted sum
     - content attention: 
     	- 將 input sentence 扣掉 target words，得到 context。把 context 用 word embedding 表示。
