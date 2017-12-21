@@ -31,9 +31,11 @@
 - Effective LSTMs for Target-Dependent Sentiment Classification [[Paper](https://arxiv.org/abs/1512.01100)] [[Review](reviews/Effective-LSTMs-for-Target-Dependent-Sentiment-Classification.md)]
     - Duyu Tang, Bing Qin, Xiaocheng Feng, Ting Liu, COLING, 2016
 
-
 - Gated Neural Networks for Targeted Sentiment Analysis [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12074/12065)] [[Review](reviews/Gated-Neural-Networks-for-Targeted-Sentiment-Analysis.md)]
     - Meishan Zhang, Yue Zhang, Duy-Tin Vo, AAAI, 2016
+
+- Efficient Character-level Document Classification by Combining Convolution and Recurrent Layers [[Paper](https://arxiv.org/abs/1602.00367)] [[Review](reviews/Efficient-Character-level-Document-Classification-by-Combining-Convolution-and-Recurrent-Layers.md)]
+    - Yijun Xiao, Kyunghyun Cho, arXiv, 2016
 
 2015
 
