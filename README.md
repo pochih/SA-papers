@@ -2,6 +2,7 @@
 
 *全部看過的 papers: [[google docs](https://docs.google.com/spreadsheets/d/1O2e5eTqGwxsmVscdXWQnMGN3ueCR12DQMJdK8XlboH4/edit#gid=855721684)]*
 
+*有任何想討論的，歡迎發 Pull Request / 發 issue / fork*
 
 2017
 
