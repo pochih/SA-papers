@@ -22,5 +22,5 @@ for Document Level Sentiment Classification](http://www.aclweb.org/anthology/P15
 - 不同 user 在評分時確實會有不同偏好，實驗也證明了這點
 
 ### Weaknesses / Notes
-- 實際使用時，可能會遇到不在 training data 中的 user/product。在這種情況下，新的 user vector / product vector，就必須先經過一些 fine-tuning，直到收斂。Inference 速度慢的問題，跟 [doc2vec](https://arxiv.org/abs/1405.4053) 遇到的問題是一樣的。
+- 實際使用時，可能會遇到不在 training data 中的 user/product。在這種情況下，新的 user vector / product vector，就必須先經過 fine-tuning，直到 user vector / product vector 收斂。Inference 速度慢的問題，跟 [doc2vec](https://arxiv.org/abs/1405.4053) 遇到的問題是一樣的。
 - 做 attention 時，如果能把 last hidden state 一起考慮進來會更好 (因為它包含了整句 sentence 的資訊)。
