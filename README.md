@@ -12,6 +12,9 @@
 - Document-Level Multi-Aspect Sentiment Classification as Machine Comprehension [[Paper](http://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-AspectClassification.pdf)] [[Review](reviews/Document-Level-Multi-Aspect-Sentiment-Classification-as-Machine-Comprehension.md)]
     - Yichun Yin, Yangqiu Song, Ming Zhang, EMNLP, 2017
 
+- Learning Generic Sentence Representations Using Convolutional Neural Networks [[Paper](https://arxiv.org/pdf/1611.07897.pdf)] [[Review](reviews/Learning-Generic-Sentence-Representations-Using-Convolutional-Neural-Networks.md)]
+    - Zhe Gan, Yunchen Pu, Ricardo Henao, Chunyuan Li, Xiaodong He, Lawrence Carin, EMNLP, 2017
+
 - Interactive Attention Networks for Aspect-Level Sentiment Classification [[Paper](https://arxiv.org/abs/1709.00893)] [[Review](reviews/Interactive-Attention-Networks-for-Aspect-Level-Sentiment-Classification.md)]
     - Dehong Ma, Sujian Li, Xiaodong Zhang, Houfeng Wang, IJCAI, 2017
 
@@ -20,6 +23,7 @@
 
 - Attention-Based LSTM for Target-Dependent Sentiment Classification [[Paper](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14151)] [[Review](reviews/Attention-Based-LSTM-for-Target-Dependent-Sentiment-Classification.md)]
     - Min Yang, Wenting Tu, Jingxuan Wang, Fei Xu, Xiaojun Chen, AAAI, 2017
+
 
 2016
 
