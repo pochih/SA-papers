@@ -38,6 +38,9 @@
 - Gated Neural Networks for Targeted Sentiment Analysis [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12074/12065)] [[Review](reviews/Gated-Neural-Networks-for-Targeted-Sentiment-Analysis.md)]
     - Meishan Zhang, Yue Zhang, Duy-Tin Vo, AAAI, 2016
 
+- Deep Sentence Embedding Using Long Short-Term Memory Networks: Analysis and Application to Information Retrieval [[Paper](https://arxiv.org/abs/1502.06922)] [[Review](reviews/Deep-Sentence-Embedding-Using-Long-Short-Term-Memory-Networks-Analysis-and-Application-to-Information-Retrieval.md)]
+    - Hamid Palangi, Li Deng, Yelong Shen, Jianfeng Gao, Xiaodong He, Jianshu Chen, Xinying Song, Rabab Ward, IEEE/ACM Transactions on Audio, Speech, and Language Processing, 2016
+
 - Efficient Character-level Document Classification by Combining Convolution and Recurrent Layers [[Paper](https://arxiv.org/abs/1602.00367)] [[Review](reviews/Efficient-Character-level-Document-Classification-by-Combining-Convolution-and-Recurrent-Layers.md)]
     - Yijun Xiao, Kyunghyun Cho, arXiv, 2016
 
