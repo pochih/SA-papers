@@ -36,6 +36,9 @@
 - Neural Sentiment Classification with User and Product Attention [[Paper](https://www.aclweb.org/anthology/D16-1171)] [[Review](reviews/Neural-Sentiment-Classification-with-User-and-Product-Attention.md)]
     - Huimin Chen, Maosong Sun, Cunchao Tu, Yankai Lin, Zhiyuan Liu, EMNLP, 2016
 
+- Rationale-Augmented Convolutional Neural Networks for Text Classification [[Paper](https://arxiv.org/abs/1605.04469)] [[Review](reviews/Rationale-Augmented-Convolutional-Neural-Networks-for-Text-Classification.md)]
+    - Ye Zhang, Iain Marshall, Byron C. Wallace, EMNLP, 2016
+
 - Effective LSTMs for Target-Dependent Sentiment Classification [[Paper](https://arxiv.org/abs/1512.01100)] [[Review](reviews/Effective-LSTMs-for-Target-Dependent-Sentiment-Classification.md)]
     - Duyu Tang, Bing Qin, Xiaocheng Feng, Ting Liu, COLING, 2016
 
