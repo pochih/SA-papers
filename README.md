@@ -52,3 +52,7 @@
 
 - Target-Dependent Twitter Sentiment Classification with Rich Automatic Features [[Paper](https://www.ijcai.org/Proceedings/15/Papers/194.pdf)] [[Review](reviews/Target-Dependent-Twitter-Sentiment-Classification-with-Rich-Automatic-Features.md)]
     - Duy-Tin Vo, Yue Zhang, IJCAI, 2015
+
+
+## Author
+Po-Chih Huang / [@brianhuang1019](http://brianhuang1019.github.io/)
