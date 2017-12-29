@@ -18,11 +18,11 @@
 - Interactive Attention Networks for Aspect-Level Sentiment Classification [[Paper](https://arxiv.org/abs/1709.00893)] [[Review](reviews/Interactive-Attention-Networks-for-Aspect-Level-Sentiment-Classification.md)]
     - Dehong Ma, Sujian Li, Xiaodong Zhang, Houfeng Wang, IJCAI, 2017
 
-- Linguistically Regularized LSTM for Sentiment Classification [[Paper](https://arxiv.org/abs/1611.03949)] [[Review](reviews/Linguistically-Regularized-LSTM-for-Sentiment-Classification.md)]
-    - Qiao Qian, Minlie Huang, Jinhao Lei, Xiaoyan Zhu, arXiv, 2017
-
 - Attention-Based LSTM for Target-Dependent Sentiment Classification [[Paper](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14151)] [[Review](reviews/Attention-Based-LSTM-for-Target-Dependent-Sentiment-Classification.md)]
     - Min Yang, Wenting Tu, Jingxuan Wang, Fei Xu, Xiaojun Chen, AAAI, 2017
+
+- Linguistically Regularized LSTM for Sentiment Classification [[Paper](https://arxiv.org/abs/1611.03949)] [[Review](reviews/Linguistically-Regularized-LSTM-for-Sentiment-Classification.md)]
+    - Qiao Qian, Minlie Huang, Jinhao Lei, Xiaoyan Zhu, ACL, 2017
 
 
 2016
@@ -55,3 +55,7 @@
 
 - Target-Dependent Twitter Sentiment Classification with Rich Automatic Features [[Paper](https://www.ijcai.org/Proceedings/15/Papers/194.pdf)] [[Review](reviews/Target-Dependent-Twitter-Sentiment-Classification-with-Rich-Automatic-Features.md)]
     - Duy-Tin Vo, Yue Zhang, IJCAI, 2015
+
+
+## Author
+Po-Chih Huang / [@brianhuang1019](http://brianhuang1019.github.io/)
