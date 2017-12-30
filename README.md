@@ -21,6 +21,9 @@
 - Attention-Based LSTM for Target-Dependent Sentiment Classification [[Paper](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14151)] [[Review](reviews/Attention-Based-LSTM-for-Target-Dependent-Sentiment-Classification.md)]
     - Min Yang, Wenting Tu, Jingxuan Wang, Fei Xu, Xiaojun Chen, AAAI, 2017
 
+- Deep Pyramid Convolutional Neural Networks for Text Categorization [[Paper](http://www.aclweb.org/anthology/P17-1052)] [[Review](reviews/Deep-Pyramid-Convolutional-Neural-Networks-for-Text-Categorization.md)]
+    - Rie Johnson, Tong Zhang, ACL, 2017
+
 - Linguistically Regularized LSTM for Sentiment Classification [[Paper](https://arxiv.org/abs/1611.03949)] [[Review](reviews/Linguistically-Regularized-LSTM-for-Sentiment-Classification.md)]
     - Qiao Qian, Minlie Huang, Jinhao Lei, Xiaoyan Zhu, ACL, 2017
 
