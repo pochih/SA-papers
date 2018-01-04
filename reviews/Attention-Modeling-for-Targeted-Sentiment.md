@@ -16,5 +16,5 @@ Jiangming Liu, Yue Zhang, EACL, 2017
 - 要把多個量級不同的東西一起考慮，例如文中把多個 LSTM 的產物一起考慮，用 gate 來控制每個 input 的比重，會比直接 concat 起來更好。二作 Yue Zhang 已經在兩篇論文中用了這個技巧
 
 ### Weaknesses / Notes
-- 這篇的中 target representation 是直接用 target hidden state 的平均，但平均這種東西，怕的就是遇到太長的 target。感覺可以對 target hidden state 也做 attention，再用 attend 過後的東西加到本篇中的三個 model 中
-- 作者在 OOV 實驗中的圖表畫反了，圖表中的結果，跟作者的論點唱反調 XD。為了驗證 BILSTM-ATT-G 對 [OOV (out of vocabulary)](http://www.festvox.org/bsv/x1407.html) 的效果很好，作者額外切了一組不包含 OOV 的 test data，並切了一組包含很多 OOV 的 test data。對這兩個 test data 做實驗，得出 OOV 很多的時候，對 BILSTM-ATT-G 影響較小。
+- 這篇的中 target representation 是直接用 target hidden state 的平均，但平均這種東西，怕的就是遇到太長的 target。如果對 target hidden state 做 attention，用 attend 後的結果當成 target representation，可能會更 robust。
+- 為了驗證 BILSTM-ATT-G 對 [OOV (out of vocabulary)](http://www.festvox.org/bsv/x1407.html) 的效果很好，作者額外切了一組不包含 OOV 的 test data，並切了一組包含很多 OOV 的 test data。對這兩個 test data 做實驗，得出 OOV 很多的時候，對 BILSTM-ATT-G 影響較小。不過作者在 OOV 實驗中的圖表畫反了，算是一個小 bug
