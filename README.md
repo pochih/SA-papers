@@ -4,6 +4,11 @@
 
 *有任何想討論的，歡迎發 Pull Request / 發 issue / fork*
 
+2018
+
+- Targeted Aspect-Based Sentiment Analysis via Embedding Commonsense Knowledge into an Attentive LSTM [[Paper](http://sentic.net/sentic-lstm.pdf)] [[Review](reviews/Targeted-Aspect-Based-Sentiment-Analysis-via-Embedding-Commonsense-Knowledge-into-an-Attentive-LSTM.md)]
+    - Yukun Ma, Haiyun Peng, Erik Cambria, AAAI, 2018
+
 2017
 
 - Attention Modeling for Targeted Sentiment [[Paper](http://leoncrashcode.github.io/Documents/EACL2017.pdf)] [[Review](reviews/Attention-Modeling-for-Targeted-Sentiment.md)]
