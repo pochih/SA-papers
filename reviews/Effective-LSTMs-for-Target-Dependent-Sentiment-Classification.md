@@ -16,11 +16,10 @@ Duyu Tang, Bing Qin, Xiaocheng Feng, Ting Liu, COLING, 2016
         - 跟 TD-LSTM 很像，但每個 input 不只是 word embedding，還會加上 target embedding
         - target embedding 是 target word 的 word embedding 平均值
 - 實驗結果
-    - TD-LSTM 比 vanilla LSTM 好一點點而已，而 TC-LSTM 在 accuracy 上是 state-of-the-art。但 F1-score 輸給之前一篇手工提取特徵的[Paper](https://www.ijcai.org/Proceedings/15/Papers/194.pdf)
+    - TD-LSTM 比 vanilla LSTM 好一點點而已，而 TC-LSTM 在 accuracy 上是 state-of-the-art。但 F1-score 輸給之前一篇手工提取特徵的 [Paper](https://www.ijcai.org/Proceedings/15/Papers/194.pdf)
     - word embedding 影響很大，glove 200d >= glove 100d > glove 50d > SSWE
     - 用範例顯示 vanilla LSTM 幾乎都忽略 target 本身的訊息，而後兩個 model 的錯誤幾乎都發生在 neutral class
     - 作者實作了 attention 效果不好
-
 
 ### Weaknesses / Notes
 - 對 target 的處理太過於簡陋，取 word embedding 的平均不是很好的做法
