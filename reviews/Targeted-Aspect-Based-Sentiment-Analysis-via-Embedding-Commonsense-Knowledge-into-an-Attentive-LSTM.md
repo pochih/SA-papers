@@ -11,7 +11,7 @@ Yukun Ma, Haiyun Peng, Erik Cambria, AAAI, 2018
 	- target attention: 首先對 target word 的 hidden state 做 attention，得出 target attention vector (終於有 paper 不是取平均了) 
 	- sentence attention: 接著把 target attention vector 與所有 hidden state concat 起來，做 attention，得到 sentence vector
 	- classifier: 用 sentence vector 經過 dense layer 以及 softmax 來算 cross-entropy
-- 在基本模型以外，會加上 Commonsense knowledge。這部分使用了名為 SenticNet 的工具，它包含 50000+ 種 concept，每種 concept 都有多種特性的傾向分數
+- 在基本模型以外，會加上 Commonsense knowledge。這部分使用了名為 SenticNet 的工具，它包含 50000+ 種 concept，每種 concept 都有多種特性的分數
 	- 例如 "win lottery" 這個 concept，在 "Arises-joy" 這個特性的分數很高，在 "KindOf-food" 這個特性的分數很低
 
 	 | concept | KindOf-food | Arises-joy | IsA-pet
