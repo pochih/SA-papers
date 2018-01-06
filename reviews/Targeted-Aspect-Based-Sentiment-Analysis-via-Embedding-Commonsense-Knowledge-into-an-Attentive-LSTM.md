@@ -3,24 +3,26 @@
 Yukun Ma, Haiyun Peng, Erik Cambria, AAAI, 2018
 
 ### Summary
-- 本篇做的是 targeted aspect-based sentiment analysis，在給定句子中，會有幾個地方被標註成 target word，你必須要分析 target word 在句中的情感，以及分析 target word 帶有的 aspect 
-	- 情感包括 positive/neutral/negative/None 四種
-	- aspect 根據 dataset 而有不同，一般來說不會太多。例如分析 'WestLondon' 這個 target word 的 'general 傾向'，以及 'safety 傾向')
-- 賣點在於用 commonsense knowledge 來輔助純文字的情感分析
-- 基本的模型使用雙向 LSTM，並加上 attention
-	- target attention: 首先對 target word 的 hidden state 做 attention，得出 target attention vector (終於有 paper 不是取平均了) 
-	- sentence attention: 接著把 target attention vector 與所有 hidden state concat 起來，做 attention，得到 sentence vector
-	- classifier: 用 sentence vector 經過 dense layer 以及 softmax 來算 cross-entropy
+- 本篇做的是 targeted aspect-based sentiment analysis，在給定句子中，會有幾個地方被標註成 target word，你必須要分析 target word 在句中的 sentiment，以及分析 target word 帶有的 aspect 
+	- sentiment 包括 positive/neutral/negative/None 四種
+	- aspect 根據 dataset 而有不同，一般來說不會太多。例如分析 'WestLondon' 這個 target word 的 'general' 傾向，以及 'safety' 傾向)
+- 本篇賣點在於用 commonsense knowledge 來輔助純文字的情感分析
+- 基本的純文字模型只考慮 text，使用雙向 LSTM，並加上 attention，分成幾個步驟：
+	1. LSTM: 首先把 input sentence 中的每一個 word 依序丟進 LSTM，丟進去的東西是該 word 的 word embedding (用 word2vec pretrain)。每個 word 都會對應到一個 hidden state
+	2. target attention: 接著對 target word 的 hidden state 做 attention，得出 target attention vector
+	3. sentence attention: 接著把 target attention vector 與所有 hidden state concat 起來，做 attention，得到 sentence attention vector
+	4. classifier: 把 sentence attention vector 經過 dense layer 以及 softmax 後來算 cross-entropy，根據梯度來更新參數
 - 在基本模型以外，會加上 Commonsense knowledge。這部分使用了名為 SenticNet 的工具，它包含 50000+ 種 concept，每種 concept 都有多種特性的分數
-	- 例如 "win lottery" 這個 concept，在 "Arises-joy" 這個特性的分數很高，在 "KindOf-food" 這個特性的分數很低
+	- 舉個例子，例如 "win lottery" 這個 concept，在 "Arises-joy" 這個特性的分數很高，在 "KindOf-food" 這個特性的分數很低
 
-	 | concept | KindOf-food | Arises-joy | IsA-pet
-	 | ------- | ----------- | ---------- | -------
-	 | dog     | 0           | 0.789      | 0.981
-	 | cupcake | 0.922       | 0.910      | 0
-	 | win lottery | 0       | 0.991      | 0
+	  | concept | KindOf-food | Arises-joy | IsA-pet
+	  | ------- | ----------- | ---------- | ------- 
+	  | dog     | 0           | 0.789      | 0.981   
+	  | cupcake | 0.922       | 0.910      | 0       
+	  | win lottery | 0       | 0.991      | 0       
         
-	- 由於 SenticNet 中的 concept 矩陣非常 sparse，很難直接與 NN 結合，因此在 AffectiveSpace (Cambria et al. 2015) 這篇 paper 找出了一個 low-dimension 且保留資訊的表示法，本篇直接把該篇 reduce dimension 後的東西拿來用，因此每個 concept 都能用一個低維的 vector 來表示
+	- 由於 SenticNet 中的 concept 矩陣非常 sparse，有太多是零的值，很難直接拿來用。
+	- 在 AffectiveSpace (Cambria et al. 2015) 這篇 paper 中，找出了一個 dimension reduction 的方式，找出了一個 low-dimension 且保留資訊的方法。本篇直接把該篇 dimension reduction 後的東西拿來用，因此每個 concept 都可以用一個低維度的 vector 來表示
     
 	- 最直接把 commonsense knowledge 加進基本模型的方式，就是把 concept vector 跟 input sentence 一起丟進 LSTM
 	- 此外，本篇還在 LSTM cell 中增加一個 concept gate，用來控制現在的 hidden state 要包含多少 concept vector 資訊
@@ -36,4 +38,4 @@ Yukun Ma, Haiyun Peng, Erik Cambria, AAAI, 2018
 ### Weaknesses / Notes
 - 在做 sentence attention 時，target 自身的 hidden state 也會跟 target attention vector concat 起來，會不會有點重複考慮？
 - 文中的實驗有使用 deep memory network 來替代 sentence attention，效果更差。作者的解釋是 deep memory network 參數太多，但實際上 deep memory network 每一個 hop 是 share weights 的，效果不好不會是參數多
-- 在多數時候，直接把 concept vector 加上 text 就能有很好效果。決定效能高低的關鍵之處，似乎在於怎麼將 high-dimension 且 sparse 的 concept vector 降維成 low-dimension。因此模型的強大之處與困難點，在於 concept vector 的學習，而不是本篇提出的架構
+- 在多數時候，直接把 low-dimension concept vector 加上 text 就能有很好效果。決定效能高低的關鍵之處，似乎在於怎麼將 high-dimension 且 sparse 的 concept vector 降維成 low-dimension。因此模型的強大之處與困難點，在於 low-dimension concept vector 的學習，也就是 AffectiveSpace (Cambria et al. 2015) 這篇 paper 在做的事，而不是本篇提出的架構
