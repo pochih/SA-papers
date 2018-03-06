@@ -22,6 +22,7 @@ Liang Bin, Liu Quan, Xu Jin, Zhou Qian, Zhang Peng, Journal of Computer Research
 - 第一次在 sentiment analysis 論文中看到 CNN 結合 attention
 - 不只對文本本身做 attention，還加上了詞性與位置。
 
-### Notes
+### Weaknesses / Notes
+- target word vector 是取平均，作法簡單但遇到長一點的 target word 效果會變差。
 - LSTM + attention 勝過 CNN + attention，輸給 CNN + multi-attention。如果 LSTM + multi-attention 不知道效果如何。(但訓練一定更慢)
 - 本文是先做 attention 再做 conv。如果對 conv 之後的產物做 attention，不知效果如何。
