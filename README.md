@@ -29,6 +29,9 @@
 - Lexicon Integrated CNN Models with Attention for Sentiment Analysis [[Paper](https://arxiv.org/abs/1610.06272)] [[Review](reviews/Lexicon-Integrated-CNN-Models-with-Attention-for-Sentiment-Analysis.md)]
     - Bonggun Shin, Timothy Lee, Jinho D. Choi, WASSA, 2017
 
+- Aspect-Based Sentiment Analysis Based on Multi-Attention CNN [[Paper](http://crad.ict.ac.cn/EN/abstract/abstract3497.shtml)] [[Review](reviews/Aspect-Based-Sentiment-Analysis-Based-on-Multi-Attention-CNN.md)]
+    - Liang Bin, Liu Quan, Xu Jin, Zhou Qian, Zhang Peng, Journal of Computer Research and Development, 2017
+
 - Deep Pyramid Convolutional Neural Networks for Text Categorization [[Paper](http://www.aclweb.org/anthology/P17-1052)] [[Review](reviews/Deep-Pyramid-Convolutional-Neural-Networks-for-Text-Categorization.md)]
     - Rie Johnson, Tong Zhang, ACL, 2017
 
