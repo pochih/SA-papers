@@ -53,6 +53,9 @@
 - Rationale-Augmented Convolutional Neural Networks for Text Classification [[Paper](https://arxiv.org/abs/1605.04469)] [[Review](reviews/Rationale-Augmented-Convolutional-Neural-Networks-for-Text-Classification.md)]
     - Ye Zhang, Iain Marshall, Byron C. Wallace, EMNLP, 2016
 
+- A Hierarchical Model of Reviews for Aspect-based Sentiment Analysis  [[Paper](https://arxiv.org/abs/1609.02745)] [[Review](reviews/A-Hierarchical-Model-of-Reviews-for-Aspect-based-Sentiment-Analysis.md)]
+    - Sebastian Ruder, Parsa Ghaffari, John G. Breslin, EMNLP, 2016
+
 - Effective LSTMs for Target-Dependent Sentiment Classification [[Paper](https://arxiv.org/abs/1512.01100)] [[Review](reviews/Effective-LSTMs-for-Target-Dependent-Sentiment-Classification.md)]
     - Duyu Tang, Bing Qin, Xiaocheng Feng, Ting Liu, COLING, 2016
 
