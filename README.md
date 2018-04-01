@@ -4,6 +4,8 @@
 
 *有任何想討論的，歡迎發 Pull Request / 發 issue / fork*
 
+### sentiment analysis
+
 2018
 
 - Targeted Aspect-Based Sentiment Analysis via Embedding Commonsense Knowledge into an Attentive LSTM [[Paper](http://sentic.net/sentic-lstm.pdf)] [[Review](reviews/Targeted-Aspect-Based-Sentiment-Analysis-via-Embedding-Commonsense-Knowledge-into-an-Attentive-LSTM.md)]
@@ -72,6 +74,13 @@
 
 - Target-Dependent Twitter Sentiment Classification with Rich Automatic Features [[Paper](https://www.ijcai.org/Proceedings/15/Papers/194.pdf)] [[Review](reviews/Target-Dependent-Twitter-Sentiment-Classification-with-Rich-Automatic-Features.md)]
     - Duy-Tin Vo, Yue Zhang, IJCAI, 2015
+
+### relationship classification
+
+2016
+
+- Relation Classification via Multi-Level Attention CNNs [[Paper](http://iiis.tsinghua.edu.cn/~weblt/papers/relation-classification.pdf)] [[Review](reviews/Relation-Classification-via-Multi-Level-Attention-CNNs.md)]
+    - Linlin Wang, Zhu Cao, Gerard de Melo, Zhiyuan Liu, ACL, 2016
 
 
 ## Author
