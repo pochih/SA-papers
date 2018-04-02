@@ -41,6 +41,9 @@
 
 2016
 
+- Cached Long Short-Term Memory Neural Networks for Document-Level Sentiment Classification [[Paper](https://arxiv.org/abs/1610.04989)] [[Review](reviews/Cached-Long-Short-Term-Memory-Neural-Networks-for-Document-Level-Sentiment-Classification.md)]
+    - Jiacheng Xu, Danlu Chen, Xipeng Qiu, Xuanjing Huang, EMNLP, 2016
+
 - Aspect Level Sentiment Classification with Deep Memory Network [[Paper](https://arxiv.org/abs/1605.08900)] [[Review](reviews/Aspect-Level-Sentiment-Classification-with-Deep-Memory-Network.md)]
     - Duyu Tang, Bing Qin, Ting Liu, EMNLP, 2016
 
