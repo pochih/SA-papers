@@ -32,3 +32,4 @@ Jiacheng Xu, Danlu Chen, Xipeng Qiu, Xuanjing Huang, EMNLP, 2016
 ### Notes
 - 實驗中用的是細粒度的情感分類。個人感覺把文本分成 1~10 分，有點太細了。一般人其實很難指出 7 分跟 8 分的差別。假如模型預測某篇文本是 7 分，而實際上是 8 或 6 分，我都會覺得模型已經蠻準的。蠻想知道在能容忍正負一的情況下，模型的準確率會是多少。
 - 好在作者在分類準確度外也有衡量 MSE，通常分類準確率高的，MSE 也會低，10-ways classification 情況下，準確率高跟 MSE 小這兩個事件還算是正相關。
+- 作者在 future work 中提到，會研究能不能 dynamically 去調 forget gate。如果真的能做出來，會很有趣。
