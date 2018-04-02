@@ -73,12 +73,14 @@
 - Target-Dependent Twitter Sentiment Classification with Rich Automatic Features [[Paper](https://www.ijcai.org/Proceedings/15/Papers/194.pdf)] [[Review](reviews/Target-Dependent-Twitter-Sentiment-Classification-with-Rich-Automatic-Features.md)]
     - Duy-Tin Vo, Yue Zhang, IJCAI, 2015
 
-### relationship classification
+### others
 
 2016
 
 - Relation Classification via Multi-Level Attention CNNs [[Paper](http://iiis.tsinghua.edu.cn/~weblt/papers/relation-classification.pdf)] [[Review](reviews/Relation-Classification-via-Multi-Level-Attention-CNNs.md)]
     - Linlin Wang, Zhu Cao, Gerard de Melo, Zhiyuan Liu, ACL, 2016
+- A Deeper Look into Sarcastic Tweets Using Deep Convolutional Neural Networks [[Paper](https://arxiv.org/abs/1610.08815)] [[Review](reviews/A-Deeper-Look-into-Sarcastic-Tweets-Using-Deep-Convolutional-Neural-Networks.md)]
+    - Soujanya Poria, Erik Cambria, Devamanyu Hazarika, Prateek Vij, COLING, 2016
 
 
 ## Author
