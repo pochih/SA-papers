@@ -38,6 +38,9 @@
 - Linguistically Regularized LSTM for Sentiment Classification [[Paper](https://arxiv.org/abs/1611.03949)] [[Review](reviews/Linguistically-Regularized-LSTM-for-Sentiment-Classification.md)]
     - Qiao Qian, Minlie Huang, Jinhao Lei, Xiaoyan Zhu, ACL, 2017
 
+- Exploiting Domain Knowledge via Grouped Weight Sharing with Application to Text Categorization [[Paper](https://arxiv.org/abs/1702.02535)] [[Review](reviews/Exploiting-Domain-Knowledge-via-Grouped-Weight-Sharing-with-Application-to-Text-Categorization.md)]
+    - Ye Zhang, Matthew Lease, Byron C. Wallace, ACL, 2017
+
 
 2016
 
