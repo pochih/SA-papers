@@ -1,4 +1,4 @@
-## NLP 中的 deep learning 論文統整、分析
+## Deep Learning 中的 Sentiment Analysis 論文統整、分析
 
 *有任何想討論的，歡迎發 Pull Request / 發 issue / fork*
 
@@ -79,7 +79,7 @@
 - Target-Dependent Twitter Sentiment Classification with Rich Automatic Features [[Paper](https://www.ijcai.org/Proceedings/15/Papers/194.pdf)] [[Review](reviews/Target-Dependent-Twitter-Sentiment-Classification-with-Rich-Automatic-Features.md)]
     - Duy-Tin Vo, Yue Zhang, IJCAI, 2015
 
-### others
+### related tasks
 
 2016
 
