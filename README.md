@@ -1,4 +1,4 @@
-## Deep Learning 中的 Sentiment Analysis 論文統整、分析
+## Deep Learning 中的 Sentiment Analysis & opinion mining 論文統整、分析
 
 *有任何想討論的，歡迎發 Pull Request / 發 issue / fork*
 
