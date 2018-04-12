@@ -17,8 +17,8 @@
 - Exploiting Domain Knowledge via Grouped Weight Sharing with Application to Text Categorization [[Paper](https://arxiv.org/abs/1702.02535)] [[Review](reviews/Exploiting-Domain-Knowledge-via-Grouped-Weight-Sharing-with-Application-to-Text-Categorization.md)]
     - Ye Zhang, Matthew Lease, Byron C. Wallace, ACL, 2017
 
-- Attention Modeling for Targeted Sentiment [[Paper](http://leoncrashcode.github.io/Documents/EACL2017.pdf)] [[Review](reviews/Attention-Modeling-for-Targeted-Sentiment.md)]
-    - Jiangming Liu, Yue Zhang, EACL, 2017
+- Deep Pyramid Convolutional Neural Networks for Text Categorization [[Paper](http://www.aclweb.org/anthology/P17-1052)] [[Review](reviews/Deep-Pyramid-Convolutional-Neural-Networks-for-Text-Categorization.md)]
+    - Rie Johnson, Tong Zhang, ACL, 2017
 
 - Document-Level Multi-Aspect Sentiment Classification as Machine Comprehension [[Paper](http://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-AspectClassification.pdf)] [[Review](reviews/Document-Level-Multi-Aspect-Sentiment-Classification-as-Machine-Comprehension.md)]
     - Yichun Yin, Yangqiu Song, Ming Zhang, EMNLP, 2017
@@ -38,8 +38,8 @@
 - Aspect-Based Sentiment Analysis Based on Multi-Attention CNN [[Paper](http://crad.ict.ac.cn/EN/abstract/abstract3497.shtml)] [[Review](reviews/Aspect-Based-Sentiment-Analysis-Based-on-Multi-Attention-CNN.md)]
     - Liang Bin, Liu Quan, Xu Jin, Zhou Qian, Zhang Peng, Journal of Computer Research and Development, 2017
 
-- Deep Pyramid Convolutional Neural Networks for Text Categorization [[Paper](http://www.aclweb.org/anthology/P17-1052)] [[Review](reviews/Deep-Pyramid-Convolutional-Neural-Networks-for-Text-Categorization.md)]
-    - Rie Johnson, Tong Zhang, ACL, 2017
+- Attention Modeling for Targeted Sentiment [[Paper](http://leoncrashcode.github.io/Documents/EACL2017.pdf)] [[Review](reviews/Attention-Modeling-for-Targeted-Sentiment.md)]
+    - Jiangming Liu, Yue Zhang, EACL, 2017
 
 
 2016
