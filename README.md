@@ -11,6 +11,12 @@
 
 2017
 
+- Linguistically Regularized LSTM for Sentiment Classification [[Paper](https://arxiv.org/abs/1611.03949)] [[Review](reviews/Linguistically-Regularized-LSTM-for-Sentiment-Classification.md)]
+    - Qiao Qian, Minlie Huang, Jinhao Lei, Xiaoyan Zhu, ACL, 2017
+
+- Exploiting Domain Knowledge via Grouped Weight Sharing with Application to Text Categorization [[Paper](https://arxiv.org/abs/1702.02535)] [[Review](reviews/Exploiting-Domain-Knowledge-via-Grouped-Weight-Sharing-with-Application-to-Text-Categorization.md)]
+    - Ye Zhang, Matthew Lease, Byron C. Wallace, ACL, 2017
+
 - Attention Modeling for Targeted Sentiment [[Paper](http://leoncrashcode.github.io/Documents/EACL2017.pdf)] [[Review](reviews/Attention-Modeling-for-Targeted-Sentiment.md)]
     - Jiangming Liu, Yue Zhang, EACL, 2017
 
@@ -34,12 +40,6 @@
 
 - Deep Pyramid Convolutional Neural Networks for Text Categorization [[Paper](http://www.aclweb.org/anthology/P17-1052)] [[Review](reviews/Deep-Pyramid-Convolutional-Neural-Networks-for-Text-Categorization.md)]
     - Rie Johnson, Tong Zhang, ACL, 2017
-
-- Linguistically Regularized LSTM for Sentiment Classification [[Paper](https://arxiv.org/abs/1611.03949)] [[Review](reviews/Linguistically-Regularized-LSTM-for-Sentiment-Classification.md)]
-    - Qiao Qian, Minlie Huang, Jinhao Lei, Xiaoyan Zhu, ACL, 2017
-
-- Exploiting Domain Knowledge via Grouped Weight Sharing with Application to Text Categorization [[Paper](https://arxiv.org/abs/1702.02535)] [[Review](reviews/Exploiting-Domain-Knowledge-via-Grouped-Weight-Sharing-with-Application-to-Text-Categorization.md)]
-    - Ye Zhang, Matthew Lease, Byron C. Wallace, ACL, 2017
 
 
 2016
