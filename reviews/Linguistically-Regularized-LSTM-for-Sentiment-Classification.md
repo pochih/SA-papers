@@ -1,6 +1,6 @@
 ## Linguistically Regularized LSTM for Sentiment Classification
 
-Qiao Qian, Minlie Huang, Jinhao Lei, Xiaoyan Zhu, arXiv, 2017
+Qiao Qian, Minlie Huang, Jinhao Lei, Xiaoyan Zhu, ACL, 2017
 
 ### Summary
 - 利用語言學規則來幫助語意分類, 將所有字分成四種
