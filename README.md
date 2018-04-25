@@ -1,6 +1,6 @@
-## NLP 中的 deep learning 論文統整、分析
+## Deep Learning 中的 Sentiment Analysis & opinion mining 論文統整、分析
 
-*有任何想討論的，歡迎發 Pull Request / 發 issue / fork*
+*有任何想討論的或有論文推薦，歡迎寄 email / 發 Pull Request / 發 issue / fork*
 
 ### sentiment analysis
 
@@ -11,8 +11,14 @@
 
 2017
 
-- Attention Modeling for Targeted Sentiment [[Paper](http://leoncrashcode.github.io/Documents/EACL2017.pdf)] [[Review](reviews/Attention-Modeling-for-Targeted-Sentiment.md)]
-    - Jiangming Liu, Yue Zhang, EACL, 2017
+- Linguistically Regularized LSTM for Sentiment Classification [[Paper](https://arxiv.org/abs/1611.03949)] [[Review](reviews/Linguistically-Regularized-LSTM-for-Sentiment-Classification.md)]
+    - Qiao Qian, Minlie Huang, Jinhao Lei, Xiaoyan Zhu, ACL, 2017
+
+- Exploiting Domain Knowledge via Grouped Weight Sharing with Application to Text Categorization [[Paper](https://arxiv.org/abs/1702.02535)] [[Review](reviews/Exploiting-Domain-Knowledge-via-Grouped-Weight-Sharing-with-Application-to-Text-Categorization.md)]
+    - Ye Zhang, Matthew Lease, Byron C. Wallace, ACL, 2017
+
+- Deep Pyramid Convolutional Neural Networks for Text Categorization [[Paper](http://www.aclweb.org/anthology/P17-1052)] [[Review](reviews/Deep-Pyramid-Convolutional-Neural-Networks-for-Text-Categorization.md)]
+    - Rie Johnson, Tong Zhang, ACL, 2017
 
 - Document-Level Multi-Aspect Sentiment Classification as Machine Comprehension [[Paper](http://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-AspectClassification.pdf)] [[Review](reviews/Document-Level-Multi-Aspect-Sentiment-Classification-as-Machine-Comprehension.md)]
     - Yichun Yin, Yangqiu Song, Ming Zhang, EMNLP, 2017
@@ -32,14 +38,14 @@
 - Aspect-Based Sentiment Analysis Based on Multi-Attention CNN [[Paper](http://crad.ict.ac.cn/EN/abstract/abstract3497.shtml)] [[Review](reviews/Aspect-Based-Sentiment-Analysis-Based-on-Multi-Attention-CNN.md)]
     - Liang Bin, Liu Quan, Xu Jin, Zhou Qian, Zhang Peng, Journal of Computer Research and Development, 2017
 
-- Deep Pyramid Convolutional Neural Networks for Text Categorization [[Paper](http://www.aclweb.org/anthology/P17-1052)] [[Review](reviews/Deep-Pyramid-Convolutional-Neural-Networks-for-Text-Categorization.md)]
-    - Rie Johnson, Tong Zhang, ACL, 2017
-
-- Linguistically Regularized LSTM for Sentiment Classification [[Paper](https://arxiv.org/abs/1611.03949)] [[Review](reviews/Linguistically-Regularized-LSTM-for-Sentiment-Classification.md)]
-    - Qiao Qian, Minlie Huang, Jinhao Lei, Xiaoyan Zhu, ACL, 2017
+- Attention Modeling for Targeted Sentiment [[Paper](http://leoncrashcode.github.io/Documents/EACL2017.pdf)] [[Review](reviews/Attention-Modeling-for-Targeted-Sentiment.md)]
+    - Jiangming Liu, Yue Zhang, EACL, 2017
 
 
 2016
+
+- Cached Long Short-Term Memory Neural Networks for Document-Level Sentiment Classification [[Paper](https://arxiv.org/abs/1610.04989)] [[Review](reviews/Cached-Long-Short-Term-Memory-Neural-Networks-for-Document-Level-Sentiment-Classification.md)]
+    - Jiacheng Xu, Danlu Chen, Xipeng Qiu, Xuanjing Huang, EMNLP, 2016
 
 - Aspect Level Sentiment Classification with Deep Memory Network [[Paper](https://arxiv.org/abs/1605.08900)] [[Review](reviews/Aspect-Level-Sentiment-Classification-with-Deep-Memory-Network.md)]
     - Duyu Tang, Bing Qin, Ting Liu, EMNLP, 2016
@@ -76,7 +82,7 @@
 - Target-Dependent Twitter Sentiment Classification with Rich Automatic Features [[Paper](https://www.ijcai.org/Proceedings/15/Papers/194.pdf)] [[Review](reviews/Target-Dependent-Twitter-Sentiment-Classification-with-Rich-Automatic-Features.md)]
     - Duy-Tin Vo, Yue Zhang, IJCAI, 2015
 
-### others
+### related tasks
 
 2016
 
