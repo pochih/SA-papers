@@ -44,6 +44,9 @@
 - Aspect Level Sentiment Classification with Deep Memory Network [[Paper](https://arxiv.org/abs/1605.08900)] [[Review](reviews/Aspect-Level-Sentiment-Classification-with-Deep-Memory-Network.md)]
     - Duyu Tang, Bing Qin, Ting Liu, EMNLP, 2016
 
+- Context-Sensitive Lexicon Features for Neural Sentiment Analysis [[Paper](https://www.aclweb.org/anthology/D16-1169)] [[Review](reviews/Context-Sensitive-Lexicon-Features-for-Neural-Sentiment-Analysis.md)]
+    - Zhiyang Teng, Duy-Tin Vo, Yue Zhang, EMNLP, 2016
+
 - Attention-based LSTM for Aspect-level Sentiment Classification [[Paper](https://aclweb.org/anthology/D16-1058)] [[Review](reviews/Attention-based-LSTM-for-Aspect-level-Sentiment-Classification.md)]
     - Yequan Wang, Minlie Huang, Li Zhao, Xiaoyan Zhu, EMNLP, 2016
 
