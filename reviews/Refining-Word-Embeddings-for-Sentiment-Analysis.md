@@ -20,7 +20,7 @@ Liang-Chih Yu, Jin Wang, K. Robert Lai, Xuejie Zhang, EMNLP, 2017
         - Vi 是更新前的 vector
         - Vi' 是更新過後的 vector
     5. 最終的 Loss: 
-    <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='https://github.com/brianhuang1019/SA-papers/blob/img/loss.png' padding='5px' height="300px"></img>
+    <img align='center' src='https://github.com/brianhuang1019/SA-papers/blob/img/loss.png' height="150px"></img>
 - 實驗
 	- 實驗在 SST 上，結果比原本的 Word2Vec 和 GloVe 好
 
