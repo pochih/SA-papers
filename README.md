@@ -23,6 +23,9 @@
 - Recurrent Attention Network on Memory for Aspect Sentiment Analysis [[Paper](http://aclweb.org/anthology/D17-1047)] [[Review](reviews/Recurrent-Attention-Network-on-Memory-for-Aspect-Sentiment-Analysis.md)]
     - Peng Chen, Zhongqian Sun, Lidong Bing, Wei Yang, EMNLP, 2017
 
+- Refining Word Embeddings for Sentiment Analysis [[Paper](https://www.aclweb.org/anthology/D/D17/D17-1056.pdf)] [[Review](reviews/Refining-Word-Embeddings-for-Sentiment-Analysis.md)]
+    - Liang-Chih Yu, Jin Wang, K. Robert Lai, Xuejie Zhang, EMNLP, 2017
+
 - Document-Level Multi-Aspect Sentiment Classification as Machine Comprehension [[Paper](http://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-AspectClassification.pdf)] [[Review](reviews/Document-Level-Multi-Aspect-Sentiment-Classification-as-Machine-Comprehension.md)]
     - Yichun Yin, Yangqiu Song, Ming Zhang, EMNLP, 2017
 
