@@ -20,6 +20,9 @@
 - Deep Pyramid Convolutional Neural Networks for Text Categorization [[Paper](http://www.aclweb.org/anthology/P17-1052)] [[Review](reviews/Deep-Pyramid-Convolutional-Neural-Networks-for-Text-Categorization.md)]
     - Rie Johnson, Tong Zhang, ACL, 2017
 
+- Recurrent Attention Network on Memory for Aspect Sentiment Analysis [[Paper](http://aclweb.org/anthology/D17-1047)] [[Review](reviews/Recurrent-Attention-Network-on-Memory-for-Aspect-Sentiment-Analysis.md)]
+    - Peng Chen, Zhongqian Sun, Lidong Bing, Wei Yang, EMNLP, 2017
+
 - Document-Level Multi-Aspect Sentiment Classification as Machine Comprehension [[Paper](http://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-AspectClassification.pdf)] [[Review](reviews/Document-Level-Multi-Aspect-Sentiment-Classification-as-Machine-Comprehension.md)]
     - Yichun Yin, Yangqiu Song, Ming Zhang, EMNLP, 2017
 
