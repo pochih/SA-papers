@@ -23,6 +23,9 @@
 - Recurrent Attention Network on Memory for Aspect Sentiment Analysis [[Paper](http://aclweb.org/anthology/D17-1047)] [[Review](reviews/Recurrent-Attention-Network-on-Memory-for-Aspect-Sentiment-Analysis.md)]
     - Peng Chen, Zhongqian Sun, Lidong Bing, Wei Yang, EMNLP, 2017
 
+- Refining Word Embeddings for Sentiment Analysis [[Paper](https://www.aclweb.org/anthology/D/D17/D17-1056.pdf)] [[Review](reviews/Refining-Word-Embeddings-for-Sentiment-Analysis.md)]
+    - Liang-Chih Yu, Jin Wang, K. Robert Lai, Xuejie Zhang, EMNLP, 2017
+
 - Document-Level Multi-Aspect Sentiment Classification as Machine Comprehension [[Paper](http://www.cse.ust.hk/~yqsong/papers/2017-EMNLP-AspectClassification.pdf)] [[Review](reviews/Document-Level-Multi-Aspect-Sentiment-Classification-as-Machine-Comprehension.md)]
     - Yichun Yin, Yangqiu Song, Ming Zhang, EMNLP, 2017
 
@@ -35,14 +38,14 @@
 - Attention-Based LSTM for Target-Dependent Sentiment Classification [[Paper](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14151)] [[Review](reviews/Attention-Based-LSTM-for-Target-Dependent-Sentiment-Classification.md)]
     - Min Yang, Wenting Tu, Jingxuan Wang, Fei Xu, Xiaojun Chen, AAAI, 2017
 
-- Lexicon Integrated CNN Models with Attention for Sentiment Analysis [[Paper](https://arxiv.org/abs/1610.06272)] [[Review](reviews/Lexicon-Integrated-CNN-Models-with-Attention-for-Sentiment-Analysis.md)]
-    - Bonggun Shin, Timothy Lee, Jinho D. Choi, WASSA, 2017
-
 - Aspect-Based Sentiment Analysis Based on Multi-Attention CNN [[Paper](http://crad.ict.ac.cn/EN/abstract/abstract3497.shtml)] [[Review](reviews/Aspect-Based-Sentiment-Analysis-Based-on-Multi-Attention-CNN.md)]
     - Liang Bin, Liu Quan, Xu Jin, Zhou Qian, Zhang Peng, Journal of Computer Research and Development, 2017
 
 - Attention Modeling for Targeted Sentiment [[Paper](http://leoncrashcode.github.io/Documents/EACL2017.pdf)] [[Review](reviews/Attention-Modeling-for-Targeted-Sentiment.md)]
     - Jiangming Liu, Yue Zhang, EACL, 2017
+
+- Lexicon Integrated CNN Models with Attention for Sentiment Analysis [[Paper](https://arxiv.org/abs/1610.06272)] [[Review](reviews/Lexicon-Integrated-CNN-Models-with-Attention-for-Sentiment-Analysis.md)]
+    - Bonggun Shin, Timothy Lee, Jinho D. Choi, WASSA, 2017
 
 
 2016
@@ -50,11 +53,11 @@
 - Cached Long Short-Term Memory Neural Networks for Document-Level Sentiment Classification [[Paper](https://arxiv.org/abs/1610.04989)] [[Review](reviews/Cached-Long-Short-Term-Memory-Neural-Networks-for-Document-Level-Sentiment-Classification.md)]
     - Jiacheng Xu, Danlu Chen, Xipeng Qiu, Xuanjing Huang, EMNLP, 2016
 
-- Aspect Level Sentiment Classification with Deep Memory Network [[Paper](https://arxiv.org/abs/1605.08900)] [[Review](reviews/Aspect-Level-Sentiment-Classification-with-Deep-Memory-Network.md)]
-    - Duyu Tang, Bing Qin, Ting Liu, EMNLP, 2016
-
 - Context-Sensitive Lexicon Features for Neural Sentiment Analysis [[Paper](https://www.aclweb.org/anthology/D16-1169)] [[Review](reviews/Context-Sensitive-Lexicon-Features-for-Neural-Sentiment-Analysis.md)]
     - Zhiyang Teng, Duy-Tin Vo, Yue Zhang, EMNLP, 2016
+
+- Aspect Level Sentiment Classification with Deep Memory Network [[Paper](https://arxiv.org/abs/1605.08900)] [[Review](reviews/Aspect-Level-Sentiment-Classification-with-Deep-Memory-Network.md)]
+    - Duyu Tang, Bing Qin, Ting Liu, EMNLP, 2016
 
 - Attention-based LSTM for Aspect-level Sentiment Classification [[Paper](https://aclweb.org/anthology/D16-1058)] [[Review](reviews/Attention-based-LSTM-for-Aspect-level-Sentiment-Classification.md)]
     - Yequan Wang, Minlie Huang, Li Zhao, Xiaoyan Zhu, EMNLP, 2016
