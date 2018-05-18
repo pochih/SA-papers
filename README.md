@@ -9,6 +9,9 @@
 - Targeted Aspect-Based Sentiment Analysis via Embedding Commonsense Knowledge into an Attentive LSTM [[Paper](http://sentic.net/sentic-lstm.pdf)] [[Review](reviews/Targeted-Aspect-Based-Sentiment-Analysis-via-Embedding-Commonsense-Knowledge-into-an-Attentive-LSTM.md)]
     - Yukun Ma, Haiyun Peng, Erik Cambria, AAAI, 2018
 
+- Transformation Networks for Target-Oriented Sentiment Classification [[Paper](http://sentic.net/sentic-lstm.pdf)] [[Review](reviews/Transformation-Networks-for-Target-Oriented-Sentiment-Classification.md)]
+    - Xin Li, Lidong Bing, Wai Lam, Bei Shi, ACL 2018
+
 2017
 
 - Linguistically Regularized LSTM for Sentiment Classification [[Paper](https://arxiv.org/abs/1611.03949)] [[Review](reviews/Linguistically-Regularized-LSTM-for-Sentiment-Classification.md)]
