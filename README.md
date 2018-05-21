@@ -9,6 +9,9 @@
 - Targeted Aspect-Based Sentiment Analysis via Embedding Commonsense Knowledge into an Attentive LSTM [[Paper](http://sentic.net/sentic-lstm.pdf)] [[Review](reviews/Targeted-Aspect-Based-Sentiment-Analysis-via-Embedding-Commonsense-Knowledge-into-an-Attentive-LSTM.md)]
     - Yukun Ma, Haiyun Peng, Erik Cambria, AAAI, 2018
 
+- Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer [[Paper](https://nlp.stanford.edu/pubs/li2018transfer.pdf)] [[Review](reviews/Delete-Retrieve-Generate-A-Simple-Approach-to-Sentiment-and-Style-Transfer.md)]
+    - Juncen Li, Robin Jia, He He, Percy Liang, NAACL-HLT, 2018
+
 - Transformation Networks for Target-Oriented Sentiment Classification [[Paper](http://sentic.net/sentic-lstm.pdf)] [[Review](reviews/Transformation-Networks-for-Target-Oriented-Sentiment-Classification.md)]
     - Xin Li, Lidong Bing, Wai Lam, Bei Shi, ACL 2018
 
